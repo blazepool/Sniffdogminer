@@ -1,6 +1,7 @@
 # SniffDog-www.blazepool.com
 
-Api Status : http://api.blazepool.com/status
+Status API: http://api.blazepool.com/status
+
 Stratum Servers: <ALGO>.mine.blazepool.com
 
 *This is Windows software designed for Nvidia 1080ti
