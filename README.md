@@ -1,4 +1,7 @@
-# SniffDog-www.zpool.ca , www.MiningPoolHub.com , www.HashRefinery.com , www.ahashpool.com , www.zergpool.com
+# SniffDog-www.blazepool.com
+
+Api Status : http://api.blazepool.com/status
+Stratum Servers: <ALGO>.mine.blazepool.com
 
 *This is Windows software designed for Nvidia 1080ti
 
