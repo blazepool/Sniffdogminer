@@ -21,7 +21,7 @@ $Name = Get-Item $MyInvocation.MyCommand.Path | Select-Object -ExpandProperty Ba
   
 $Location = "US"
 
-$blazepool_Request | Get-Member -MemberType NoteProperty -ErrorAction Ignore | Select-Object -ExpandProperty Name | Where-Object {$blazepool_Request.$_.hashrate -gt 0} | foreach {
+$blazepool_Request | Get-Member -MemberType NoteProperty -ErrorAction Ignore | Select-Object -ExpandProperty Name | foreach {
     $blazepool_Host = "$_.mine.blazepool.com"
     $blazepool_Port = $blazepool_Request.$_.port
     $blazepool_Algorithm = Get-Algorithm $blazepool_Request.$_.name
